@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-900">
+    <div class="bg-gray-800 p-6 rounded-xl shadow-lg flex items-center space-x-4">
+        <div class="text-center text-white">
+            <span id="hours" class="text-3xl font-bold"></span>
+            <div class="text-sm">Hours</div>
+        </div>
+        <span class="text-white text-3xl">:</span>
+        <div class="text-center text-white">
+            <span id="minutes" class="text-3xl font-bold"></span>
+            <div class="text-sm">Minutes</div>
+        </div>
+        <span class="text-white text-3xl">:</span>
+        <div class="text-center text-white">
+            <span id="seconds" class="text-3xl font-bold"></span>
+            <div class="text-sm">Seconds</div>
+        </div>
+        <span id="ampm" class="text-white text-xl"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
